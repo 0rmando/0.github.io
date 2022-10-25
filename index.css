@@ -92,7 +92,9 @@ body {
 	position: absolute;
 	width: 100%;
 	font-size: 25px;
-	margin-top: -35px;
+	margin-top: -60px;
+	margin-left: -125px;
+	
 
 
 }
@@ -123,6 +125,7 @@ h4 {
 		background: ;
 		text-align: center;
 		margin-top: -55px;
+		margin-left: -55px;
 		font-size: 30px;
 		letter-spacing: 5px;
 		
@@ -152,13 +155,14 @@ h4 {
 	.nav__li-container {
 		position: relative;
 		top: -1000px;
-		height:calc(100vh - 190px);
+		height:calc(100vh - 200px);
 		background: linear-gradient(-45deg, #c779d0, #4bc0c8, #feac5e);
 		transition: all 1s;
 		z-index: 1;
 		width: 75%;
 		padding-top: 12px;
 		margin-top: 30px;
+		margin-left: -40px;
 	}
 
 	.nav__responsive-li {
@@ -196,14 +200,14 @@ h4 {
 	margin-top: 100px;
 	background-size: cover;
 	background-position: center;
-	margin-left: 110px;
+	margin-left: 150px;
 }
 
 .imagen-ajustar-movil-10 {
 	height: 250px;
 	width: 250px;
 	border-radius: 40%;
-	margin-left: 20px;
+	margin-left: 100px;
 	margin-top: 40px;
 	background-image: url(imagen10.jpg);
 	background-size: cover;
@@ -218,7 +222,7 @@ h4 {
 
 	background-size: cover;
 	background-position: center;
-	margin-left: 110px;
+	margin-left: 150px;
 }
 
 
@@ -260,9 +264,10 @@ h4 {
 
 .container-titulo {
 	display:inline-block;
-	width: 1350px;
+	width: 105%;
 	height: 350px;
-	padding-top: 70px;
+	margin-top: -50px;
+	margin-left: -50px;
 	font-size: 20px;
 	filter: contrast(0.50);
 	background-image: url(prueba.jpg);
@@ -276,7 +281,7 @@ h4 {
 	padding: 10px;
 	animation: brillo 1s alternate-reverse; infinite;
 	letter-spacing: 5px;
-	margin-top: 60px;
+	margin-top: 150px;
 	background: #fff;
 }
 
